@@ -8,8 +8,8 @@
 #'  \describe{
 #'   \item{default}{A numeric vector of events status (assumed sorted by time).}
 #'   \item{numeric}{Vectors of events and numbers at risk (assumed sorted by time).}
-#'   \item{}{A \code{ten} object.}
-#'   \item{}{A \code{stratTen} object.}
+#'   \item{ten}{A \code{ten} object.}
+#'   \item{stratTen}{A \code{stratTen} object.}
 #' }
 #' @param ... Additional arguments (not implemented).
 #' @param n Number at risk.
@@ -33,8 +33,8 @@
 #' the value of the \code{attribute} is returned directly.
 #'
 #' @return
-#' A {data.table} which is stored as an attribute of
-#' the \code{ten} object. 
+#' A \{data.table\} which is stored as an attribute of
+#' the \code{ten} object.
 #' \cr
 #' If \code{what="s"}, the \bold{s}urvival is returned, based on the
 #' Kaplan-Meier or product-limit estimator.
